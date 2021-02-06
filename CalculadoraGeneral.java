@@ -1,3 +1,3 @@
 public interface CalculadoraGeneral{
-    public String calculo (expresion String);
+    public void calculo (String  expresion);
 }
