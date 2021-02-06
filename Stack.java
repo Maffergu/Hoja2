@@ -1,3 +1,6 @@
+//María Fernanda Argueta 20458
+//Hoja 2
+//Interfaz de Stack tomada de los archivos subidos en clase
 public interface Stack<E> 
 {
 

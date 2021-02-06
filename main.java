@@ -13,7 +13,9 @@ public class main{
         System.out.println("Grax");
 
         //Se verifica que exista la ruta
+        //pre: valor ingresado de ruta
         try {
+          //post: operaciones realizadas según lo descrito en el txt
             File myObj = new File(docname+".txt");
             Scanner myReader = new Scanner(myObj);
             //ir haciendo las operaciones línea por línea
@@ -25,6 +27,7 @@ public class main{
             }
             myReader.close();
           } catch (FileNotFoundException e) {
+            //post: mensaje de error
             System.out.println("An error occurred.");
             e.printStackTrace();
           }
